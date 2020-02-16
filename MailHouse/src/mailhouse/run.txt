@@ -1,0 +1,12 @@
+javac -d ../bin .\mailhouse\server\Handler.java .\mailhouse\server\MailServer.jav
+a .\mailhouse\server\DataAccess.java .\mailhouse\client\Client.java .\mailhouse\client\Connection.java .\mailhouse\domai
+n\User.java .\mailhouse\domain\Mail.java .\mailhouse\domain\SubMail.java .\mailhouse\domain\Attachment.java .\mailhouse\
+domain\UserProfile.java .\mailhouse\packets\Packet.java .\mailhouse\packets\PacketTypes.java .\mailhouse\packets\LoginPa
+cket.java .\mailhouse\packets\LogoutPacket.java .\mailhouse\packets\GetMailListPacket.java .\mailhouse\packets\GetMailPa
+cket.java .\mailhouse\packets\SendMailPacket.java .\mailhouse\packets\ProfilePacket.java .\mailhouse\packets\ErrorPacket
+.java .\mailhouse\exceptions\UserNotFoundException.java
+
+
+
+ java -cp "B:\Faizal\CSAProject\jdbcpostgresql\jdbc-postgresql.jar\jdbc-postgresql
+.jar;../bin" mailhouse.server.MailServer
